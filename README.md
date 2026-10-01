@@ -1,9 +1,12 @@
 # Node.js Demo App - GitHub Actions CI/CD
 
-This project completes **DevOps Internship Task 1: Automate Code Deployment Using CI/CD Pipeline (GitHub Actions)**.
+This project completes 
+**DevOps Internship Task 1:** 
+**Automate Code Deployment Using CI/CD Pipeline (GitHub Actions)**.
 
 ## Objective
-Build and automate a sample Node.js web application using GitHub Actions and Docker. Every push to `main` runs tests first; when tests pass, GitHub Actions builds the Docker image and pushes it to Docker Hub.
+Build and automate a sample Node.js web application using GitHub Actions and Docker. 
+Every push to `main` runs tests first; when tests pass, GitHub Actions builds the Docker image and pushes it to Docker Hub.
 
 ## Tools
 - GitHub
@@ -109,7 +112,8 @@ The workflow publishes:
 ## Interview questions
 
 ### 1. What is CI/CD?
-**CI (Continuous Integration)** automatically builds and tests code changes. **CD (Continuous Delivery/Deployment)** automates the process of preparing or deploying validated changes.
+**CI (Continuous Integration)** automatically builds and tests code changes. 
+**CD (Continuous Delivery/Deployment)** automates the process of preparing or deploying validated changes.
 
 ### 2. How do GitHub Actions work?
 GitHub Actions executes workflows defined in YAML files under `.github/workflows/`. Events such as a push trigger jobs, and jobs run on GitHub-hosted or self-hosted runners.
